@@ -1,6 +1,6 @@
 # CodeWars
 A repository for CodeWars challenges.
-A repository filled with codewars challenges (kata). Push 2 solutions every day.
+A repository filled with codewars challenges (kata). Pushing 2 solutions every day.
 
 How It's Made:
 
