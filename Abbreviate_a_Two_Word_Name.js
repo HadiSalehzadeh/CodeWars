@@ -10,5 +10,3 @@ const abbrevName = (name) => {
   let nameArr = name.split(" ")
   return `${(nameArr[0]).charAt(0)}.${(nameArr[1]).charAt(0)}`
 }
-
-console.log(abbrevName('Hadi Salehzadeh'))
