@@ -11,8 +11,3 @@ const strCount = (str, letter) => {
   }
   return counter
 }
-
-
-console.log(strCount('Hello', 'o'))
-console.log(strCount('Hello', 'l'))
-console.log(strCount('','z'))
