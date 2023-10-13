@@ -10,9 +10,6 @@ String.prototype.toAlternatingCase = function() {
   return newStr;
 };
 
-
-
-console.log(toAlternatingCase("HELLO WORLD"))
 console.log(toAlternatingCase("hello WORLD"))
 console.log(toAlternatingCase("HeLLo WoRLD"))
 console.log(toAlternatingCase(12345))
