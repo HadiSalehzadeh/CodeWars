@@ -12,8 +12,6 @@ String.prototype.toAlternatingCase = function() {
 
 
 
-
-console.log(toAlternatingCase("hello world"))
 console.log(toAlternatingCase("HELLO WORLD"))
 console.log(toAlternatingCase("hello WORLD"))
 console.log(toAlternatingCase("HeLLo WoRLD"))
