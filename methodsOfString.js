@@ -20,3 +20,5 @@ function cutIt(arr) {
   }
   return shortenArr
 }
+//Test case
+console.log(cutIt(['a', 'bc', 'def', 'ghij']))
