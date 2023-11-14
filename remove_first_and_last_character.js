@@ -5,12 +5,12 @@
 
 const array = (string) => {
   if (string.length <= 2) {
-    return null;
+    return null
   } else {
-    string = string.substring(1); // remove the first character
-    string = string.substring(0, string.length - 1); // remove the last character
-    let newStr = string.split(", ");
-    return newStr.join(" ");
+    string = string.substring(1)
+    string = string.substring(0, string.length - 1)
+    let newStr = string.split(", ")
+    return newStr.join(" ")
   }
 }
 
