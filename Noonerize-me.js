@@ -7,3 +7,12 @@
 
 // When the inputs are valid, they will always be integers, no floats will be passed. However, you must take into account that the numbers will be of varying magnitude, between and within test cases.
 
+function noonerize(numbers) {
+  if (typeof numbers[0] !== 'number' || typeof numbers[1] !== 'number' || !Number.isInteger(numbers[0]) || !Number.isInteger(numbers[1])) {
+    return "invalid array";
+  } else {
+    const num1 = parseInt(numbers[0].toString().slice(0, 1) + numbers[1].toString().slice(1));
+    const num2 = parseInt(numbers[1].toString().slice(0, 1) + numbers[0].toString().slice(1));
+    return Math.abs(num1 - num2);
+  }
+}
