@@ -18,4 +18,3 @@ const fizzbuzz = (n) => {
   }
   return newArr
 }
-console.log(fizzbuzz(15))
