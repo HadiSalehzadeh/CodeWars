@@ -15,7 +15,6 @@
 // If the index is negative or the address of the memory being accessed is at or greater than the end of the array, throw an Error (JS) / IndexError (Python). In C return NULL instead.
 
 // Otherwise, who knows what data we could be accessing!
-
 // Usage Example
 // elementLocation(0x1000, 0x1040, 0x3, 0x8) => 0x1018
 // elementLocation(0x1000, 0x1040, 0x8, 0x8) // throws Error
