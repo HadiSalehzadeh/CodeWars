@@ -29,3 +29,8 @@
 // size will be a power of 2.
 // begin is evenly divisible by 4.
 // The difference of begin and end is evenly divisible by size.
+const elementLocation = (begin, end, index, size) => {
+  let address = begin + index * size;
+  if (address < begin || address >= end) throw new Error('Segmentation fault - core dumped');
+  return address;
+};
