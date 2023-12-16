@@ -13,17 +13,11 @@
 //             [Orthus, Hydra]
 // If there aren't any cases for the given amount of heads and tails - return "No solutions" or null (C#).
 
-function beasts(heads, tails) {
-  // Solve the system of equations
-  // 2x + 5y = heads
-  // x + y = tails
-  let x = (2 * tails - heads) / 3;
-  let y = tails - x;
-
-  // Check if the solution is valid
-  if (x >= 0 && y >= 0 && Number.isInteger(x) && Number.isInteger(y)) {
-    return [x, y];
-  } else {
-    return "No solutions";
+function beasts(heads, tails){
+  for(var i = 0; i <= tails; i++){
+    if( (i * 5 + (tails- i) * 2) == heads){
+      return [tails- i,i];
+    }
   }
+  return 'No solutions';
 }
