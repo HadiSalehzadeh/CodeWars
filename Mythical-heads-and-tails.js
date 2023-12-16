@@ -8,9 +8,7 @@
 
 // Task
 // Given the number of heads and the number of tails, work out the number of each mythical beast!
-
 // The data is given as two parameters. Your answer should be returned as an array:
-
 //  VALID ->      [24 , 15]           INVALID ->  "No solutions"
 //             [Orthus, Hydra]
 // If there aren't any cases for the given amount of heads and tails - return "No solutions" or null (C#).
