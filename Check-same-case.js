@@ -5,11 +5,7 @@
 // If both characters are letters, but not the same case, return 0
 // Examples
 // 'a' and 'g' returns 1
-
 // 'A' and 'C' returns 1
-
 // 'b' and 'G' returns 0
-
 // 'B' and 'g' returns 0
-
 // '0' and '?' returns -1
