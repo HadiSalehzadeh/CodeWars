@@ -6,10 +6,6 @@
 // Simple!
 // arguments passed in will be 1 or greater
 
-function evaluateRadicals(x) {
-  if (x < 1) {
-    return x;
-  } else {
-    return Math.sqrt(evaluateRadicals(x - 1));
-  }
+function fn(x) {
+  return (1+Math.sqrt(1+4*x))/2;
 }
