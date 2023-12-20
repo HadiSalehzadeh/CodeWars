@@ -4,4 +4,4 @@
 // Note: The function accepts an integer and returns an integer.
 // Happy Coding!
 
-const squareDigits = num => parseInt(num.toString().split('').map(digit => Math.pow(parseInt(digit, 10), 2)).join(''), 10);
+const squareDigits = num => parseInt(num.toString().split('').map(digit => Math.pow(parseInt(digit, 10), 2)).join(''), 10)
