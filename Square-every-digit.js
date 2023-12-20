@@ -3,3 +3,5 @@
 // Example #2: An input of 765 will/should return 493625 because 72 is 49, 62 is 36, and 52 is 25. (49-36-25)
 // Note: The function accepts an integer and returns an integer.
 // Happy Coding!
+
+const squareDigits = num => parseInt(num.toString().split('').map(digit => Math.pow(parseInt(digit, 10), 2)).join(''), 10);
