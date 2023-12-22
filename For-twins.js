@@ -15,3 +15,5 @@
 // bottle_length = 30
 // rim_length = 7
 // volume = 1150
+
+const iceBrickVolume = (r, x, y) => 2 * r * r * (x - y);
