@@ -6,3 +6,11 @@
 // max_hook_dist - Maximum uniform distance between curtain hooks [1,100] (assume that curtain hooks have no thickness and can be fixed anywhere throughout the curtain). Can be higher than the length of the curtain.
 // Measuring device/method - Any measuring method or type of a meter (ruler, fingers, etc.) which could be used to measure the distance between the hooks is not allowed. Use maths instead.
 // P.S. I hope this kata will change the number of curtain hooks you use when hanging your own curtains :)
+
+const numberOfHooks = function(length, maxHookDist) {
+  let hooks = 1;
+  for (let i = length; i > maxHookDist; i /=2){
+    hooks *= 2
+  }
+  return hooks + 1
+}
