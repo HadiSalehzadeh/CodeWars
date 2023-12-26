@@ -8,3 +8,6 @@
 // function(325, "Czech Koruna") => "You now have 6825 of Czech Koruna."
 // Using your understanding of converting currencies in conjunction with the preloaded conversion-rates table, properly convert your dollars into the correct amount of foreign currency.
 // Note: CONVERSION_RATES is frozen.
+
+const convertMyDollars = ($, currency) => 
+      `You now have ${ $ * parseInt(CONVERSION_RATES[currency], /[AEIOU]/.test(currency[0]) ? 10 : 2) } of ${currency}.`;
