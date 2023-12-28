@@ -3,3 +3,7 @@
 // Three semicircles are drawn on AB, AD, and AF. Here CD is perpendicular to AB and EF is perpendicular to AD.
 // Task
 // Given the radius of the semicircle ADBCA, find out the area of the lune AGFHA (the shaded area).
+
+function bloodMoon(r){
+  return r*r/4;
+}
