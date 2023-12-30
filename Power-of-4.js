@@ -4,3 +4,16 @@
 // powerOf4(1024) // returns true
 // powerOf4(44) // returns false
 // powerOf4("not a positive integer") // returns false
+
+function powerOf4(n) {
+  if (typeof n !== 'number' || !Number.isInteger(n) || n <= 0) {
+    return false;
+  }
+  while (n > 1) {
+    if (n % 4 !== 0) {
+      return false;
+    }
+    n /= 4;
+  }
+  return true;
+}
