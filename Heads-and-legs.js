@@ -15,3 +15,14 @@
 // There are many different ways to solve this, but they all give the same answer.
 // You will only be given integers types - however negative values (edge cases) will be given.
 // Happy coding!
+
+function animals(heads, legs) {
+  let cows = (legs - 2 * heads) / 2;
+  let chickens = heads - cows;
+
+  if (chickens < 0 || cows < 0 || !Number.isInteger(chickens) || !Number.isInteger(cows)) {
+    return "No solutions";
+  } else {
+    return [chickens, cows];
+  }
+}
