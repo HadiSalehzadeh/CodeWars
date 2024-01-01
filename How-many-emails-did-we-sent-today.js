@@ -1,10 +1,7 @@
 // Every day we can send from the server a certain limit of e-mails.
-
 // Task:
 // Write a function that will return the integer number of e-mails sent in the percentage of the limit.
-
 // Example:
-
 // limit       - 1000;
 // emails sent - 101;
 // return      - 10%; // because integer from 10,1 = 10
