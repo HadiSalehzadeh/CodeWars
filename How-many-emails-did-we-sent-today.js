@@ -13,3 +13,14 @@
 // the argument sent >= limit, then return the message: "Daily limit is reached";
 // the argument limit is empty, then default limit = 1000 emails;
 // Good luck!
+
+function getPercentage(sent, limit = 1000) {
+  if (sent === 0) {
+    return "No e-mails sent";
+  } else if (sent >= limit) {
+    return "Daily limit is reached";
+  } else {
+    let percentage = Math.floor((sent / limit) * 100);
+    return percentage + "%";
+  }
+}
