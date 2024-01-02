@@ -8,3 +8,7 @@
 // halfLife(8,4,2) => 2
 // // if quantity is one-quarter after 2 time periods, half-life = 1
 // halfLife(12,3,2) => 1
+
+function halfLife(quantityInitial, quantityRemaining, time) {
+  return time / Math.log2(quantityInitial / quantityRemaining);
+}
