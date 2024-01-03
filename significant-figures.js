@@ -1,6 +1,5 @@
 // The Challenge
 // Write a function that returns the number of significant figures in a given number. You can read about significant figures below.
-
 // Helpful information
 // the type of the given number will be string
 // you must return the number of significant figures as type int
@@ -8,7 +7,6 @@
 // Significant Figures
 // What are they?
 // Significant Figures are the meaningful digits in a measured or computed value.
-
 // Counting significant figures
 // All non-zero digits are significant
 // 4.357 has 4 significant figures
