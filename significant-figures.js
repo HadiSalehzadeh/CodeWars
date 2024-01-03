@@ -23,3 +23,6 @@
 // All zeroes between significant figures are significant
 // 90.09 has 4 significant figures
 // 5050 has 3 significant figures
+
+const numberOfSigfigs = n =>
+  `${n}`.replace(/^[0.]+(?!$)|(?<!\..*)0+$|\./g, '').length;
