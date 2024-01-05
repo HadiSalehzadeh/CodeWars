@@ -3,3 +3,18 @@
 // divisors(12); // should return [2,3,4,6]
 // divisors(25); // should return [5]
 // divisors(13); // should return "13 is prime"
+
+function divisors(integer) {
+  let result = [];
+  for (let i = 2; i <= Math.sqrt(integer); i++) {
+    if (integer % i === 0) {
+      if (i !== integer / i) {
+        result.push(i, integer / i);
+      } else {
+        result.push(i);
+      }
+    }
+  }
+  result.sort((a, b) => a - b);
+  return result.length > 0 ? result : `${integer} is prime`;
+}
