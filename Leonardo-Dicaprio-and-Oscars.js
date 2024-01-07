@@ -1,7 +1,5 @@
 // You have to write a function that describe Leo:
-
 // function leo(oscar) {
-
 // }
 // if oscar was (integer) 88, you have to return "Leo finally won the oscar! Leo is happy".
 // if oscar was 86, you have to return "Not even for Wolf of wallstreet?!"
